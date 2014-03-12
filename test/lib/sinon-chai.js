@@ -22,8 +22,8 @@
 
     function isSpy(putativeSpy) {
         return typeof putativeSpy === "function" &&
-               typeof putativeSpy.getCall === "function" &&
-               typeof putativeSpy.calledWithExactly === "function";
+            typeof putativeSpy.getCall === "function" &&
+            typeof putativeSpy.calledWithExactly === "function";
     }
 
     function isCall(putativeCall) {
